@@ -1,0 +1,22 @@
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes rotate-opacity {
+  0% {
+    opacity: 0.1;
+    transform: rotate(0deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotate(1turn);
+  }
+}
